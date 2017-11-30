@@ -56,12 +56,4 @@ public class GraphAdjMatrix implements Graph {
 		}
 		
 	}
-	
-	public int growArray(int[] arr, int size) {
-		int[] newArr = new int[size * 2];
-		System.arraycopy(arr, 0, newArr, 0, size);
-		arr = newArr;
-		size = size * 2;
-		return size;
-	}
 }
